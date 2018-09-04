@@ -1,0 +1,161 @@
+body{
+    /*background:url(img/water.jpg)    no-repeat fixed top center;*/
+    /*background:blue;*/
+}
+
+.box3{
+    position: relative;
+    float:left;
+    padding:12px; 
+}
+.box{
+    /*reel pictures*/
+    position: relative;
+    font-size: 1.38rem;
+    text-align: center;
+    float:left;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: .50em;
+} 
+.box1{
+    position: relative;
+    font-size: 1.38rem;
+    text-align: center;
+    float:left;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: .50em;
+}
+input[type="search"] {
+    font-size:20px;
+    color:black;
+    float:right;
+    margin:10px;
+    padding:2px;
+    }
+.container{
+    background-color:#3F250B;
+    box-shadow: 5px 10px;
+    margin:20px;
+    border-radius:1em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    border-radius: 1em;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:white;
+}
+    #sidebar{
+    font-size:17px;
+    width: 100px;
+    float: right;
+    background-color: #fff;
+    padding:30px;
+    margin: 20px;
+    border:black solid 2px;
+    border-radius: 1em;
+
+    }
+
+ h1{
+     display:flex;
+     flex:50vw;
+     height:25vh;
+     color: yellow;
+     justify-content: center;
+     font-size: 5em;   
+     align-items:center;  
+     padding:0;
+     margin:0;   
+ }
+ button{
+     background-color:black;
+     color:gray;
+     border:1px gray solid;
+     border-radius:.5em;
+     font-size:20px;
+     text-decoration: none;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+ }
+
+ .button:hover{
+     background-color:white;
+ }
+
+ .footer {
+    position: relative;
+    margin-top: -180px;
+    text-align: end;
+    clear: both;
+
+  }
+
+  .box{
+    border:1px solid black;
+    background-color: snow;
+    border-radius: 1em;
+    box-shadow: 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin:25px;    
+  }
+
+  .box1{
+    border:1px solid black;
+    background-color: snow;
+    border-radius: 1em;
+    box-shadow: 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin:25px;
+  }
+
+  .section1{
+      padding:10%;
+  }
+
+  img:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:300px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.container {
+    animation: move 1s;
+    -webkit-animation: move 1s;
+  }
+  
+  @keyframes move {
+    from {
+      width: 300%;
+    }
+  
+    to {
+      width: 100%;
+    }
+
+  }
+  p{
+      font-size:25px;
+  }
+
+
+
+
+
+
